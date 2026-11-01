@@ -4,10 +4,6 @@ format: html
 editor: visual
 ---
 
-```{r}
-install.packages("countrycode")
-```
-
 - Countrycode converts different country code formats
 
 ```{r}
