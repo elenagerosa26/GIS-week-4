@@ -5,3 +5,11 @@ editor: visual
 ---
 
 #### this line was added on github
+
+```{r}
+library(terra)
+
+jan <- terra::rast('/Users/gerosa/Desktop/GIS-practicals/Practical 3/wc2.1_5m_tavg/wc2.1_5m_tavg_01.tif')
+
+plot(jan)
+```
